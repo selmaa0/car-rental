@@ -3,6 +3,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { NavigationContainer } from '@react-navigation/native';
 import { Entypo, FontAwesome, Ionicons } from '@expo/vector-icons';
+
 import Home from './src/Home';
 import Heart from './src/Heart';
 import Signup from './src/Signup';
@@ -13,7 +14,7 @@ import Cemail from './src/Cemail';
 import Cpassword from './src/Cpassword';
 import Cars from './src/Cars';
 import Clocation from './src/Clocation';
-
+import React, { useState } from 'react';
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
